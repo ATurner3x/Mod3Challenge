@@ -31,3 +31,31 @@ function generatePassword() {
 
 
 }
+
+function getPrompts() {
+  choiceArr = [];
+  
+  passlength = parseInt(prompt ("How many characters would you like ? ( 8 - 128 chars)"));
+
+  if(isNaN(passlength) || passlength < 8 || passlength > 128) {
+    alert("Password length must be between 8 - 128 characters");
+    return false;
+  }
+  
+  if(confirm("With lowercase letters?")) {
+    choiceArr = choiceArr.concat(LowercaseArr);
+  }
+
+  if(confirm("With Uppercase letters?")) {
+    choiceArr = choiceArr.concat(UppercaseArr);
+  }
+
+  if(confirm("With numbers?")) {
+    choiceArr = choiceArr.concat(numberArr);
+  }
+
+  if(confirm("With Special Characters?")) {
+    choiceArr = choiceArr.concat(specialCharArr);
+  }
+  return true;
+}
