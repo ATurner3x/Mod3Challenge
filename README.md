@@ -16,7 +16,7 @@ Press the "Generate" button , then select your criteria to generate your random 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](./Develop/assets/images/Screenshot%202023-02-27%20143053.png)
+![Password Generator Screenshot](./Develop/assets/images/Screenshot%202023-02-27%20143053.png)
 
 ## License
 
