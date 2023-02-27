@@ -1,4 +1,3 @@
-# Password Generator Starter Code
 # Module 3 Challenge
 
 ## Description
@@ -9,7 +8,7 @@ This website is a random password generator. During the course of this assignmen
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Visit this site. https://aturner3x.github.io/Mod3Challenge/ 
 
 ## Usage
 
@@ -17,7 +16,7 @@ Press the "Generate" button , then select your criteria to generate your random 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-![alt text](assets/images/screenshot.png)
+![alt text](./Develop/assets/images/Screenshot%202023-02-27%20143053.png)
 
 ## License
 
