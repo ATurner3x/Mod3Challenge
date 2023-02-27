@@ -1,3 +1,4 @@
+
 // Assignment code here
 
 
@@ -15,3 +16,18 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// Arrays
+var passlength = 8 < 128;
+var choiceArr = [];
+var UppercaseArr = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+var LowercaseArr = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+var specialCharArr = ['!' , '@' , '#' , '%' , '^' , '&' , '*' , '<' , '>' , '?' , '/'] ;
+var numberArr = ['1','2','3','4','5','6','8','9','0'];
+
+
+function generatePassword() {
+  console.log ("Button Clicked !")
+
+
+}
